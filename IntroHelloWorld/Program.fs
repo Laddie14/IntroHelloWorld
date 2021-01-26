@@ -1,8 +1,10 @@
-﻿// Learn more about F# at http://fsharp.org
+﻿// Ladinaka Samuels 
+//Write a program that prints 'Hello World' to the screen.
 
 open System
 
-[<EntryPoint>]
-let main argv =
-    printfn "Hello World from F#!"
-    0 // return an integer exit code
+let main _=
+    printf"Hello world"
+    let noName = Console.ReadLine()
+    printf"%s"(noName)
+main()    
